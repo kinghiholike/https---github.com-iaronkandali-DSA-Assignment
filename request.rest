@@ -1,0 +1,15 @@
+
+post http://localhost:8080/newlecturer
+
+{
+"staff_number":"12584114",
+"full_name":"King Hiholike",
+"office_number":"12375",
+"list_of_courses":["King","me","","thwm"]
+}
+
+###
+
+get http://localhost:8080/lecturers
+
+
