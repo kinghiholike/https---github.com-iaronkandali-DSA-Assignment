@@ -1,3 +1,4 @@
+// done in group of 4 members
 isolated service class StaffRepository {
     private table<Lecturer> key(staff_number) lecturers = table [];
     private table<Office> key(office_number) offices = table [
